@@ -13,7 +13,7 @@ namespace TuringTechnical.Models
         public string Title {get;set;}
         public string Description { get; set; }
         public int CreditHours { get; set; }
-        public int ClassMax { get; set; } //ClassMax=maximum number of students in class
-        public string ClassFormat { get; set; } //ClassFormat = online, in person, hybrid, self-study
+        public int MaxClassSize { get; set; } //ClassMax=maximum number of students in class
+        public int MinClassSize { get; set; } //ClassMin = minimum number students for class to go
     }
 }

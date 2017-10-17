@@ -17,7 +17,8 @@ namespace TuringTechnical.Models
         [DisplayFormat(DataFormatString = "{0:mm/dd/yyyy}")]
         public DateTime EnrollDate { get; set; }
         public string Email { get; set; }
-        public string Phone { get; set; }
+        [DisplayFormat(DataFormatString = "{0:###-###-####}")]
+        public long Phone { get; set; }
 
     }
 }
