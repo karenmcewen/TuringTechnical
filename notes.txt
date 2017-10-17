@@ -1,0 +1,10 @@
+10/16/2017 9:20pm
+done - first commit
+done - added two classes: course, student
+done - updated NuGet
+done - chose bootswatch template (cosmo)
+to do - create controllers
+question-?*.schema added to classes
+to do - navbar (need to have controllers first)
+question - how to link tables/models or create a joining table
+to do - in classes need to add foreign key
