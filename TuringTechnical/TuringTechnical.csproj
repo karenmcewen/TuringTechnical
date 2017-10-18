@@ -161,6 +161,8 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.2.1.intellisense.js" />
+    <Content Include="Images\math-formula-chalkboard.jpg" />
+    <Content Include="Images\porridge.jpg" />
     <Content Include="Images\quote-sometimes-it-is-the-people-no-one-imagines-anything-of-who-do-the-things-that-no-one-alan-turing-87-51-55.jpg" />
     <Content Include="Images\turing machine.jpg" />
     <Content Include="Scripts\bootstrap.js" />
