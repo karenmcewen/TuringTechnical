@@ -15,5 +15,6 @@ namespace TuringTechnical.Models
         public int CreditHours { get; set; }
         public int MaxClassSize { get; set; } //ClassMax=maximum number of students in class
         public int MinClassSize { get; set; } //ClassMin = minimum number students for class to go
+        public ICollection<Course_Student> Course_Students { get; set; }
     }
 }

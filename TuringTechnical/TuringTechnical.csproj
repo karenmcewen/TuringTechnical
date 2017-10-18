@@ -134,6 +134,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710172238162_InitialCreate.cs" />
+    <Compile Include="Migrations\201710172238162_InitialCreate.Designer.cs">
+      <DependentUpon>201710172238162_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710182215267_first migration.cs" />
+    <Compile Include="Migrations\201710182215267_first migration.Designer.cs">
+      <DependentUpon>201710182215267_first migration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Course_Student.cs" />
     <Compile Include="Models\Student.cs" />
@@ -220,6 +229,14 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-3.2.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.2.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201710172238162_InitialCreate.resx">
+      <DependentUpon>201710172238162_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710182215267_first migration.resx">
+      <DependentUpon>201710182215267_first migration.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
