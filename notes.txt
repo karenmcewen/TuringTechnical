@@ -3,8 +3,9 @@ done - first commit
 done - added two classes: course, student
 done - updated NuGet
 done - chose bootswatch template (cosmo)
+10/17/2017
 to do - create controllers
-question-?*.schema added to classes
+done - question when is *.schema added to classes - when the foreign keys are added
 to do - navbar (need to have controllers first)
-question - how to link tables/models or create a joining table
-to do - in classes need to add foreign key
+done - question - how to link tables/models or create a joining table - called course_student w/foreign keys to both course and student
+done - to do - in classes need to add foreign key - don't need to add to course/student, just the joining table

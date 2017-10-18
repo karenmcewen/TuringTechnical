@@ -12,9 +12,9 @@ namespace TuringTechnical.Models
         public int ID { get; set; }
         public string Name { get; set; }
         //can change the format that is displayed by putting a [] above the definition
-        [DisplayFormat(DataFormatString = "{0:mm/dd/yyyy}")]
+        [DisplayFormat(DataFormatString = "{0:MM/dd/yyyy}")]
         public DateTime BirthDate { get; set; }
-        [DisplayFormat(DataFormatString = "{0:mm/dd/yyyy}")]
+        [DisplayFormat(DataFormatString = "{0:MM/dd/yyyy}")]
         public DateTime EnrollDate { get; set; }
         public string Email { get; set; }
         [DisplayFormat(DataFormatString = "{0:###-###-####}")]

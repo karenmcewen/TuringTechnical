@@ -24,7 +24,7 @@ namespace TuringTechnical
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap-cosmo.css",
+                      "~/Content/Bootstrap-United.css",
                       "~/Content/site.css"));
         }
     }
